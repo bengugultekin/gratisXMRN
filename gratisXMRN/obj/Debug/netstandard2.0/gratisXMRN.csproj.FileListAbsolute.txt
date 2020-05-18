@@ -1,0 +1,14 @@
+C:\Users\Bengu\source\repos\gratisXMRN\gratisXMRN\bin\Debug\netstandard2.0\gratisXMRN.deps.json
+C:\Users\Bengu\source\repos\gratisXMRN\gratisXMRN\bin\Debug\netstandard2.0\gratisXMRN.dll
+C:\Users\Bengu\source\repos\gratisXMRN\gratisXMRN\bin\Debug\netstandard2.0\ref\gratisXMRN.dll
+C:\Users\Bengu\source\repos\gratisXMRN\gratisXMRN\bin\Debug\netstandard2.0\gratisXMRN.pdb
+C:\Users\Bengu\source\repos\gratisXMRN\gratisXMRN\obj\Debug\netstandard2.0\gratisXMRN.csprojAssemblyReference.cache
+C:\Users\Bengu\source\repos\gratisXMRN\gratisXMRN\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Bengu\source\repos\gratisXMRN\gratisXMRN\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Bengu\source\repos\gratisXMRN\gratisXMRN\obj\Debug\netstandard2.0\gratisXMRN.csproj.CoreCompileInputs.cache
+C:\Users\Bengu\source\repos\gratisXMRN\gratisXMRN\obj\Debug\netstandard2.0\gratisXMRN.AssemblyInfoInputs.cache
+C:\Users\Bengu\source\repos\gratisXMRN\gratisXMRN\obj\Debug\netstandard2.0\gratisXMRN.AssemblyInfo.cs
+C:\Users\Bengu\source\repos\gratisXMRN\gratisXMRN\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Bengu\source\repos\gratisXMRN\gratisXMRN\obj\Debug\netstandard2.0\gratisXMRN.dll
+C:\Users\Bengu\source\repos\gratisXMRN\gratisXMRN\obj\Debug\netstandard2.0\ref\gratisXMRN.dll
+C:\Users\Bengu\source\repos\gratisXMRN\gratisXMRN\obj\Debug\netstandard2.0\gratisXMRN.pdb
