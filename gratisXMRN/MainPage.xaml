@@ -10,13 +10,9 @@
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="30"/>
+                <RowDefinition Height="70"/>
                 <RowDefinition Height="60"/>
-                <RowDefinition Height="10"/>
-                <RowDefinition Height="60"/>
-                <RowDefinition/>
-                <RowDefinition/>
-                <RowDefinition/>
-                <RowDefinition/>
+                <RowDefinition/>                
             </Grid.RowDefinitions>
 
             <StackLayout Grid.Row="0" Orientation="Horizontal" BackgroundColor="Yellow">
@@ -26,21 +22,44 @@
             </StackLayout>
 
             <StackLayout Grid.Row="1" Orientation="Horizontal" BackgroundColor="Lavender">
-                <Button BackgroundColor="Lavender" ImageSource="C:\Users\Bengu\source\repos\gratisXMRN\gratisXMRN.Android\Resources\drawable\home.png"/>
-                <Button BackgroundColor="Lavender" ImageSource="C:\Users\Bengu\source\repos\gratisXMRN\gratisXMRN.Android\Resources\drawable\search.png"/>
-                <Button BackgroundColor="Lavender" ImageSource="C:\Users\Bengu\source\repos\gratisXMRN\gratisXMRN.Android\Resources\drawable\basket.png"/>
-                <Button BackgroundColor="Lavender" ImageSource="C:\Users\Bengu\source\repos\gratisXMRN\gratisXMRN.Android\Resources\drawable\user.png"/>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="90"/>
+                        <ColumnDefinition Width="90"/>
+                        <ColumnDefinition Width="90"/>
+                        <ColumnDefinition Width="90"/>
+                    </Grid.ColumnDefinitions>
+
+                    <StackLayout Grid.Column="0">
+                        <Button BackgroundColor="Lavender" ImageSource="C:\Users\Bengu\source\repos\gratisXMRN\gratisXMRN.Android\Resources\drawable\home.png" WidthRequest="80"/>
+                        <Label Text="Anasayfa" TextColor="White" HorizontalOptions="Center"/>
+                    </StackLayout>
+
+                    <StackLayout Grid.Column="1">
+                        <Button BackgroundColor="Lavender" ImageSource="C:\Users\Bengu\source\repos\gratisXMRN\gratisXMRN.Android\Resources\drawable\search.png"/>
+                        <Label Text="Kategoriler" TextColor="White" HorizontalOptions="Center"/>
+                    </StackLayout>
+                    
+                    <StackLayout Grid.Column="2">
+                        <Button BackgroundColor="Lavender" ImageSource="C:\Users\Bengu\source\repos\gratisXMRN\gratisXMRN.Android\Resources\drawable\basket.png"/>
+                        <Label Text="Sepetim" TextColor="White" HorizontalOptions="Center"/>
+                    </StackLayout>
+
+                    <StackLayout Grid.Column="3">
+                        <Button BackgroundColor="Lavender" ImageSource="C:\Users\Bengu\source\repos\gratisXMRN\gratisXMRN.Android\Resources\drawable\user.png"/>
+                        <Label Text="Hesabım" TextColor="White" HorizontalOptions="Center"/>
+                    </StackLayout>
+                </Grid>
             </StackLayout>
 
-            <StackLayout Grid.Row="2" Orientation="Horizontal" BackgroundColor="Lavender">
-                
-            </StackLayout>
-
-            <StackLayout Grid.Row="3" Orientation="Horizontal" BackgroundColor="#490E6F" HorizontalOptions="FillAndExpand">
+            <StackLayout Grid.Row="2" Orientation="Horizontal" BackgroundColor="#490E6F" HorizontalOptions="FillAndExpand">
                 <SearchBar WidthRequest="270" Placeholder="Aradığınız Ürün.." PlaceholderColor="White" TextColor="White"/>
                 <Image Source="C:\Users\Bengu\source\repos\gratisXMRN\gratisXMRN.Android\Resources\drawable\gratis.png" BackgroundColor="#490E6F" WidthRequest="100" HorizontalOptions="End"/>
             </StackLayout>
-
+            
+            <StackLayout Grid.Row="3">
+                
+            </StackLayout>
             
         </Grid>
     </ScrollView>
